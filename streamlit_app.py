@@ -20,8 +20,8 @@ st.dataframe(data=my_dataframe, use_container_width=True)
 st.stop()
 
 pd_df=my_dataframe.to_padas()
-st.dataframe(pd_df)
-st.stop()
+#st.dataframe(pd_df)
+#st.stop()
 
 ingredients_list = st.multiselect(
     'Choose up to 5 ingredients: ', my_dataframe, max_selections=5)
